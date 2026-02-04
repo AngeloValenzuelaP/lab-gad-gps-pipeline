@@ -30,15 +30,15 @@ Este pipeline permite:
 
 ## 🧱 Arquitectura
 
-
-- RAW (Wisetrack)
-  ↓
-- CLEAN (normalizado y depurado)
-  ↓
-- MASTER (GPS_STD anonimizados)
-  ↓
-- REPORTS / METADATA
-
+```bash
+RAW (Wisetrack)
+   ↓
+CLEAN (normalizado y depurado)
+   ↓  
+MASTER (GPS_STD anonimizados)
+   ↓
+REPORTS / METADATA
+```
 
 
 La lógica del pipeline **no define reglas**.  
